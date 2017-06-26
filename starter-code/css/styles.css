@@ -1,22 +1,45 @@
 body {
+  margin: 0;
+  padding: 0;
 }
 
 #board {
+  background-color: mediumspringgreen;
+  width: 800px;
+  height: 400px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 100px;
 }
 
 .paddle {
+  width: 10px;
+  height: 50px;
+  background-color: darkgray;
+  position: absolute;
+  top: 100px;
 }
 
 #paddle1 {
+  left: 0;
 }
 
 #paddle2 {
+  right: 0;
 }
 
 #net {
 }
 
 #ball {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: limegreen;
+  border: 2px solid white;
+  border-radius: 50%;
 }
 
 .score span {

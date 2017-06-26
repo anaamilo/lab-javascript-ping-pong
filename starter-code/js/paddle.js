@@ -1,5 +1,8 @@
 function Paddle(x,y) {
+  this.x = x;
+  this.y = y;
 }
+
 Paddle.prototype.restart = function(){
 };
 
